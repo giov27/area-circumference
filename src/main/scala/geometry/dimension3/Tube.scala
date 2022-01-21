@@ -2,7 +2,7 @@ package geometry.dimension3
 
 import geometry.dimension2.Circle
 
-class Tube(override val radius:Double, var height:Double) extends Circle(radius){
+class Tube(radius:Double, height:Double) extends Circle(radius){
   def volume():Double ={
     area()*height
   }

@@ -1,5 +1,10 @@
 package geometry.dimension2
 
+/**
+ *
+ * @param length
+ * @param width
+ */
 class Rectangle(length:Double, width:Double) {
   def area(): Double = length * width
 
